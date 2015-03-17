@@ -1,0 +1,7 @@
+%h1 Index Placeholder
+
+- @articles.each do |article|
+	%h2= article.title
+	%br/
+
+= link_to "+ Article", new_article_path
